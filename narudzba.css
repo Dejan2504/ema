@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    padding: 15px;
+}
+
+header h1 {
+    color: black;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.shop {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+button p {
+    font-size: 18px;
+    margin-top: 5px;
+}

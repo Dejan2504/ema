@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - Majice</title>
+    <link rel="stylesheet" href="narudzba.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Shop Majica</h1>
+      <nav>
+        <a href="index.html">Početna</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+
+    <section class="shop">
+      <h2>Izaberite svoju majicu</h2>
+
+      <div class="products">
+        <form action="narudzba.php" method="POST">
+          <input type="hidden" name="product_name" value="Crna Majica" />
+          <input type="hidden" name="product_price" value="20" />
+          <button type="submit">
+            <img src="img/majica1.jpg" alt="Crna Majica" />
+            <p>Crna Majica - 20 KM</p>
+          </button>
+        </form>
+
+        <form action="narudzba.php" method="POST">
+          <input type="hidden" name="product_name" value="Bela Majica" />
+          <input type="hidden" name="product_price" value="22" />
+          <button type="submit">
+            <img src="img/majica2.jpg" alt="Bela Majica" />
+            <p>Bela Majica - 22 KM</p>
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
